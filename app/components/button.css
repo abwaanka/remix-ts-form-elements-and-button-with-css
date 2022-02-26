@@ -85,8 +85,13 @@
     opacity: 1;
 
     --tw-ring-color: var(--color-team-current);
+    outline-color: var(--tw-ring-color);
+
 	--tw-ring-offset-width: 4px;
+    outline-offset: var(--tw-ring-offset-width);
+
 	--tw-ring-offset-color: var(--color-white);
+    outline: 2px solid var(--tw-ring-offset-color);
 
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
